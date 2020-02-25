@@ -52,7 +52,7 @@ namespace QuadTreeAlgorithm
             this.boundary = boundary;
             this.capacity = capacity;
         }
-        //quadtree nin ve onun çocuklarının içindeki pixelleri alıp coordinates içine atar
+        //quadtree' nin ve onun çocuklarının içindeki pixelleri alıp coordinates içine atar
         public void getTrees(QuadTree root)
         {
             if (root != null)
